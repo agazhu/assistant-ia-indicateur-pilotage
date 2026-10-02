@@ -38,7 +38,7 @@ L'Assistant, chatbot interministériel souverain, a été généralisé à tous 
 
 **Seuils.**
 - **Alerte** : pénétration inférieure à 50 % de la médiane nationale. Ce seuil est relatif, faute de cible académique publiée.
-- **Vigilance** : vitalité inférieure à 50 % de la médiane (2,4 aujourd'hui), hors vacances scolaires. Une académie est concernée : Toulouse.
+- **Vigilance** : vitalité inférieure à 50 % de la médiane (2,4 au 1er octobre), hors vacances scolaires. Une académie est concernée : Toulouse.
 - **Contrôle de qualité** : compteurs inchangés pendant sept jours hors vacances, signe d'une anomalie de collecte probable. Exemple : Toulouse, du 3 au 18 septembre.
 - **Pas de seuil haut sur le volume de messages**, conformément au principe de frugalité du cadre d'usage de l'IA en éducation.
 
