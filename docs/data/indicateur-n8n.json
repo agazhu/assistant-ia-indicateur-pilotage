@@ -1,1 +1,223 @@
-{}
+{
+ "genere_le": "2026-10-03T17:28:35.455Z",
+ "dernier_releve": "2026-10-03T01:00:01+00:00",
+ "national": {
+  "utilisateurs_perimetre_ministere": 18217,
+  "penetration_nationale_pct": 1.5,
+  "atteinte_cible_pct": 18.2,
+  "mediane_vitalite": 4.885,
+  "seuil_vitalite": 2.44
+ },
+ "academies": [
+  {
+   "academie": "Orléans-Tours",
+   "utilisateurs": 670,
+   "nouveaux_28j": 218,
+   "vitalite": 5.52,
+   "signal": false
+  },
+  {
+   "academie": "Versailles",
+   "utilisateurs": 820,
+   "nouveaux_28j": 357,
+   "vitalite": 4.63,
+   "signal": false
+  },
+  {
+   "academie": "Rennes",
+   "utilisateurs": 1083,
+   "nouveaux_28j": 514,
+   "vitalite": 5.02,
+   "signal": false
+  },
+  {
+   "academie": "Nantes",
+   "utilisateurs": 1290,
+   "nouveaux_28j": 324,
+   "vitalite": 2.93,
+   "signal": false
+  },
+  {
+   "academie": "Aix-Marseille",
+   "utilisateurs": 467,
+   "nouveaux_28j": 218,
+   "vitalite": 6.52,
+   "signal": false
+  },
+  {
+   "academie": "Créteil",
+   "utilisateurs": 596,
+   "nouveaux_28j": 234,
+   "vitalite": 5.89,
+   "signal": false
+  },
+  {
+   "academie": "La Réunion",
+   "utilisateurs": 455,
+   "nouveaux_28j": 175,
+   "vitalite": 7.82,
+   "signal": false
+  },
+  {
+   "academie": "Nice",
+   "utilisateurs": 361,
+   "nouveaux_28j": 127,
+   "vitalite": 6.27,
+   "signal": false
+  },
+  {
+   "academie": "Reims",
+   "utilisateurs": 538,
+   "nouveaux_28j": 114,
+   "vitalite": 4.17,
+   "signal": false
+  },
+  {
+   "academie": "Bordeaux",
+   "utilisateurs": 932,
+   "nouveaux_28j": 267,
+   "vitalite": 4.33,
+   "signal": false
+  },
+  {
+   "academie": "Montpellier",
+   "utilisateurs": 823,
+   "nouveaux_28j": 156,
+   "vitalite": 3.43,
+   "signal": false
+  },
+  {
+   "academie": "Strasbourg",
+   "utilisateurs": 1264,
+   "nouveaux_28j": 325,
+   "vitalite": 4.78,
+   "signal": false
+  },
+  {
+   "academie": "Besançon",
+   "utilisateurs": 486,
+   "nouveaux_28j": 141,
+   "vitalite": 4.47,
+   "signal": false
+  },
+  {
+   "academie": "Lille",
+   "utilisateurs": 1029,
+   "nouveaux_28j": 315,
+   "vitalite": 4.2,
+   "signal": false
+  },
+  {
+   "academie": "Toulouse",
+   "utilisateurs": 755,
+   "nouveaux_28j": 57,
+   "vitalite": 0.77,
+   "signal": true
+  },
+  {
+   "academie": "Normandie",
+   "utilisateurs": 505,
+   "nouveaux_28j": 184,
+   "vitalite": 6.61,
+   "signal": false
+  },
+  {
+   "academie": "Nancy-Metz",
+   "utilisateurs": 748,
+   "nouveaux_28j": 284,
+   "vitalite": 5.06,
+   "signal": false
+  },
+  {
+   "academie": "Lyon",
+   "utilisateurs": 356,
+   "nouveaux_28j": 165,
+   "vitalite": 5.09,
+   "signal": false
+  },
+  {
+   "academie": "Dijon",
+   "utilisateurs": 475,
+   "nouveaux_28j": 161,
+   "vitalite": 4.27,
+   "signal": false
+  },
+  {
+   "academie": "Guyane",
+   "utilisateurs": 125,
+   "nouveaux_28j": 20,
+   "vitalite": 7.23,
+   "signal": false
+  },
+  {
+   "academie": "Paris",
+   "utilisateurs": 167,
+   "nouveaux_28j": 53,
+   "vitalite": 7.67,
+   "signal": false
+  },
+  {
+   "academie": "Martinique",
+   "utilisateurs": 285,
+   "nouveaux_28j": 55,
+   "vitalite": 6.21,
+   "signal": false
+  },
+  {
+   "academie": "Clermont-Ferrand",
+   "utilisateurs": 230,
+   "nouveaux_28j": 111,
+   "vitalite": 5.94,
+   "signal": false
+  },
+  {
+   "academie": "Grenoble",
+   "utilisateurs": 444,
+   "nouveaux_28j": 204,
+   "vitalite": 6.86,
+   "signal": false
+  },
+  {
+   "academie": "Poitiers",
+   "utilisateurs": 381,
+   "nouveaux_28j": 169,
+   "vitalite": 4.01,
+   "signal": false
+  },
+  {
+   "academie": "Limoges",
+   "utilisateurs": 171,
+   "nouveaux_28j": 70,
+   "vitalite": 3.72,
+   "signal": false
+  },
+  {
+   "academie": "Amiens",
+   "utilisateurs": 1113,
+   "nouveaux_28j": 377,
+   "vitalite": 3.4,
+   "signal": false
+  },
+  {
+   "academie": "Corse",
+   "utilisateurs": 89,
+   "nouveaux_28j": 16,
+   "vitalite": 4.99,
+   "signal": false
+  },
+  {
+   "academie": "Mayotte",
+   "utilisateurs": 120,
+   "nouveaux_28j": 17,
+   "vitalite": 4.64,
+   "signal": false
+  },
+  {
+   "academie": "Guadeloupe",
+   "utilisateurs": 142,
+   "nouveaux_28j": 79,
+   "vitalite": 3.7,
+   "signal": false
+  }
+ ]
+}
