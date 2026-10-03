@@ -48,12 +48,12 @@ Le point d'accès `/exports` renvoie le jeu complet en un seul appel. Le point d
   - Alerte : pénétration inférieure à 50 % de la médiane nationale.
   - Vigilance : vitalité inférieure à 50 % de la médiane, suspendue si plus de la moitié de la fenêtre tombe en vacances scolaires.
   - Contrôle de qualité : messages inchangés pendant sept jours observés hors vacances.
-- **Cohérence.** Les deux versions (Python et n8n) donnent les mêmes valeurs nationales sur les données du 1er octobre 2026 : 17 524 utilisateurs, médiane de vitalité 4,77, seuil 2,38.
+- **Cohérence.** Testées le 3 octobre 2026 sur le même relevé, les deux versions donnent le même nombre d'utilisateurs (18 217), la même pénétration nationale (1,50 %) et signalent la même académie (Toulouse). La médiane de vitalité diffère légèrement (4,71 en Python, 4,89 en n8n) : le 5 septembre, début de la fenêtre de 28 jours, n'a pas de relevé. La version Python l'interpole ; la version n8n, simplifiée, remonte au dernier relevé disponible (4 septembre) et calcule donc sur 29 jours.
 
 ## Choix techniques
 
 - **GitHub Actions pour l'exécution.** Aucun serveur à maintenir, historique des exécutions consultable, résultats versionnés dans le dépôt.
-- **n8n comme voie d'industrialisation.** Le workflow fourni reproduit le calcul national et la vitalité par académie (sans interpolation des jours manquants) et publie le résultat dans le dépôt. Il n'a pas été exécuté dans une instance n8n : il nécessite un jeton GitHub à configurer.
+- **n8n comme voie d'industrialisation.** Le workflow fourni reproduit le calcul national et la vitalité par académie (sans interpolation des jours manquants) et publie le résultat dans le dépôt. Il a été testé manuellement le 3 octobre 2026 et écrit son résultat dans docs/data/indicateur-n8n.json. Il n'est pas activé, pour ne pas doubler la tâche GitHub Actions.
 - **Pas de Système de design de l'État.** Son usage est réservé aux sites de l'État ; une version en production l'adopterait. La page suit néanmoins les bonnes pratiques d'accessibilité : contrastes suffisants, navigation au clavier, alternative textuelle et tableau pour chaque graphique.
 - **Aucune bibliothèque JavaScript externe.** Les graphiques sont dessinés en SVG.
 
