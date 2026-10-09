@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-08T12:11+00:00",
+ "genere_le": "2026-10-09T12:02+00:00",
  "dernier_releve": "2026-10-06",
  "sources": {
   "serie": "API data.education.gouv.fr",
@@ -468,7 +468,7 @@
   }
  ],
  "profils": {
-  "date_collecte": "2026-10-08",
+  "date_collecte": "2026-10-09",
   "totaux": {
    "Chefs d’établissement": 197,
    "Enseignants": 552,
